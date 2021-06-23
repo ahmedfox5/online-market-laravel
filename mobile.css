@@ -1,0 +1,99 @@
+@media (max-width: 767px) {
+  .nav .buttons-button {
+    display: inline;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #00C851;
+    color: #ffffff;
+    font-size: 22px;
+    z-index: 101;
+    left: calc(100% - 60px);
+    padding: 0;
+  }
+  .nav .bactive {
+    background: #007E33;
+  }
+  .nav .buttons {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    display: block;
+    background: #aaa;
+    z-index: 100;
+    top: 60px;
+    left: 0;
+    padding: 0;
+
+  }
+  .nav .buttons a {
+    width: 100vw;
+    margin: 0;
+      color: #000;
+      border-bottom: 1px solid !important;
+  }
+
+    .nav .buttons a:hover::before{
+        width: 0;
+    }
+  .nav .user {
+    left: -10px;
+    position: absolute;
+    width: 160px;
+    font-size: 12px;
+  }
+  .nav .user img {
+    width: 50px;
+    height: 50px;
+  }
+  .nav .user .nav-cart {
+    font-size: 16px;
+  }
+
+
+
+  .suggestions .row div {
+    width: 250px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .suggestions .row div img {
+    width: 100%;
+  }
+  .suggestions .row div p {
+    font-size: 14px;
+    margin: 1px;
+  }
+  .cards-cont {
+    position: relative;
+  }
+  .cards-cont .p-card {
+    width: 250px !important;
+    padding: 0;
+  }
+  .cards-cont .p-card img {
+    /*width: 100%;*/
+    height: 160px;
+  }
+
+    .user-drop-home{
+        left: 15px;
+    }
+
+
+    /* search   */
+    #search{
+        left: calc(100% - 120px);
+        transition: all .5s;
+    }
+
+
+/*    comments */
+    .comment-cont{
+        width: 100vw !important;
+    }
+
+}
+/*# sourceMappingURL=mobile.css.map */
